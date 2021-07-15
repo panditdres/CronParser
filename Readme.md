@@ -22,19 +22,15 @@ Dependencies :
 - You can then open your terminal and run the application through there once `dotnet` has been installed
 - You can verify the version of dotnet install by running `dotnet --version`
 
-After cloning the repo, go to the folder level i.e `your/path/to/CronParser` :
+After cloning the repo, go to the folder level i.e `your/path/to/CronParser/CronParser` - you should be able to the a .csproj in there
 
-To run the application, run `dotnet run` and it will prompt you to input your cron expression
+To run the application, run `dotnet run {cron expression}`
 
-To run the tests attached to the project, run `dotnet test`
-
-Try it with a cron command. it can take any number of parameters as along as :
- - The program to execute is the last element
- - The 5 columns are right before the the program to execute.
+To run the tests attached to the project, run `dotnet test` but ensure you are in the level above in your folder path i.e `your/path/to/CronParser/CronParser` - you should be able to see the `CronParser.Tests` folder
  
  Example :
  
- `*/15 0 1,15 * 1-5 /usr/bin/find`
+ `dotnet run */15 0 1,15 * 1-5 /usr/bin/find`
  
  yields :
  
