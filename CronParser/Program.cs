@@ -10,9 +10,7 @@ namespace CronParser
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! Please input you cron expression.");
-            var input = Console.ReadLine();
-            var output = CronExpressionParser(input);
+            var output = CronExpressionParser(args[0]);
             Console.WriteLine(output);
         }
         
