@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.809.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CronParser", "CronParser\CronParser.csproj", "{72B72739-D567-4DB0-8575-72F83CCEA296}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CronParser.Tests", "CronParser.Tests\CronParser.Tests.csproj", "{5B2AEF49-A4E5-4900-8A8A-6276C7BD2211}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72B72739-D567-4DB0-8575-72F83CCEA296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B72739-D567-4DB0-8575-72F83CCEA296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B72739-D567-4DB0-8575-72F83CCEA296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B72739-D567-4DB0-8575-72F83CCEA296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B2AEF49-A4E5-4900-8A8A-6276C7BD2211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B2AEF49-A4E5-4900-8A8A-6276C7BD2211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B2AEF49-A4E5-4900-8A8A-6276C7BD2211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B2AEF49-A4E5-4900-8A8A-6276C7BD2211}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2678468C-6D17-44AC-AA7B-2708BC1BF079}
+	EndGlobalSection
+EndGlobal
