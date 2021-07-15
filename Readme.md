@@ -5,13 +5,6 @@ This repository showcases the logic and the code on how we can display the diffe
 
 We want to accept an input from the user and the output will be displayed in a table where the keys will be in a column of 14 spaces wide.
 
-- The logic used follows the Cron format for multiple input types :
-
-      - 5 : a fixed value
-      - 5-10 : a range
-      - */5 : a frequency
-      - 5,7 : a list of values 
-
 #### How to run it 
 
 Dependencies :
