@@ -19,7 +19,7 @@ After cloning the repo, go to the folder level i.e `your/path/to/CronParser/Cron
 
 To run the application, run `dotnet run {cron expression}`
 
-To run the tests attached to the project, run `dotnet test` but ensure you are in the level above in your folder path i.e `your/path/to/CronParser/CronParser` - you should be able to see the `CronParser.Tests` folder
+To run the tests attached to the project, run `dotnet test` but ensure you are in the level above in your folder path i.e `your/path/to/CronParser` - you should be able to see the `CronParser.Tests` folder
  
  Example :
  
